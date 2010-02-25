@@ -1,4 +1,4 @@
-#include "CondCore/PluginSystem/interface/registration_macros.h"
+#include "CondCore/ESSources/interface/registration_macros.h"
 
 #include "CondFormats/BTauObjects/interface/TrackProbabilityCalibration.h"
 #include "CondFormats/DataRecord/interface/BTagTrackProbability2DRcd.h"
@@ -12,7 +12,7 @@
 
 using namespace PhysicsTools::Calibration;
 
-DEFINE_SEAL_MODULE();
+
 
 REGISTER_PLUGIN(CombinedTauTagRcd,CombinedTauTagCalibration);
 REGISTER_PLUGIN(BTauGenericMVAJetTagComputerRcd, MVAComputerContainer);
